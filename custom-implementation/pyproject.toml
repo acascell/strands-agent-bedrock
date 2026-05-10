@@ -1,0 +1,14 @@
+[project]
+name = "custom-implementation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.136.1",
+    "httpx>=0.28.1",
+    "ollama>=0.6.2",
+    "pydantic>=2.13.4",
+    "strands-agents>=1.39.0",
+    "uvicorn[standard]>=0.46.0",
+]

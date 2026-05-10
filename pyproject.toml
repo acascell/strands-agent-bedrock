@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "strands agents workshop"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "boto3>=1.43.6",
+    "ollama>=0.6.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "sdk-integration",
+    "custom-implementation",
+]
